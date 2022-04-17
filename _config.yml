@@ -7,13 +7,13 @@ version: 2
 
 # Personal info
 name: Hamzeh Mahmoudi
-title: Developer
+title: Backend Developer
 email: Hamzehmahmoudi9@gmail.com
 # email_title: Email (Email title override)
 phone: '+989016850828'
 # phone_title: Phone (Phone title override)
 # website: coming soon
-# website_title: Web (Website title override)
+# website_title: https://hamzehmahmoudi.github.io/
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -56,21 +56,13 @@ about_content: | # this will include new lines to allow paragraphs
   I have a passion for learning and I am always trying to improve my skills and Learn new programming Language.
   Im working with python since 2017 and i tried django and flask at 2020 and i am learning more and more.
   I am fammiliar with other programming and languages and tools like  :
-    - PHP <img align="left" alt="PHP" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png" />
-    - Java <img align="left" alt="Java" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png" />
-    - redis <img align="left" alt="redis" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redis/redis.png"/>
-    - Laravel <img align="left" alt="Laravel" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/laravel/laravel.png" />
-    - Docker <img align="left" alt="Docker" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" />
-    - Go <img align="left" alt="redis" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/go/go.png"/>
-    - Rust   <img align="left" alt="rust" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/rust/rust.png" />
-    - JavaScript <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
-  ### Languages and Tools I Plan on Learning:
-
-  <img align="left" alt="graphql" width="26px" src="https://raw.githubusercontent.com/github/explore/e94815998e4e0713912fed477a1f346ec04c3da2/topics/graphql/graphql.png" />
-  <img align="left" alt="redis" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/go/go.png"/>
-  <img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/e94815998e4e0713912fed477a1f346ec04c3da2/topics/react/react.png" />
-  <img align="left" alt="Nodejs" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />
-
+    - PHP 
+    - redis 
+    - Laravel 
+    - Docker 
+    - Go 
+    - Rust  
+    - JavaScript
 
 
 content:
@@ -94,28 +86,61 @@ content:
           Open Source Freelancing Web Application Using Django
         description: | # this will include new lines to allow paragraphs
           me and my friend <a href='https://github.com/mahanfarzaneh2000'>MahanFarzaneh</a> developed using django.
-          we developed this as our webdev course project. we has planed to develop this in the future.
           you can read more in project repo  ( 'the code is messy but it works ;)' )
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Meydoon 
-        link: https://github.com/HamzehMahmoudi/Meydoon
-        link_text: Meydoon
+        title: CRM 
+        link: https://github.com/HamzehMahmoudi/CRM_project
+        link_text: CRM
         additional_links:
-          - title:  https://github.com/HamzehMahmoudi/Meydoon
+          - title:  https://github.com/HamzehMahmoudi/CRM_project
             icon: fab fa-github
-            url: https://github.com/HamzehMahmoudi/Meydoon
-          - title:  https://github.com/mahanfarzaneh2000/Meydoon
-            icon: fab fa-github
-            url: https://github.com/mahanfarzaneh2000/Meydoon
+            url: https://github.com/HamzehMahmoudi/CRM_project
         quote: >
-          Open Source Freelancing Web Application Using Django
+          Customer relationship management app that can help you manage your sales and customers
         description: | # this will include new lines to allow paragraphs
-          me and my friend <a href='https://github.com/mahanfarzaneh2000'>MahanFarzaneh</a> developed using django.
-          we developed this as our webdev course project. we has planed to develop this in the future.
-          you can read more in project repo  ( 'the code is messy but it works ;)' )
-          
+          it has many featues like :
+            - individualize customers for each salesman
+            - each salesman can add new customer  
+            - each salesman only access  his/her customers
+            - Create Quote 
+            - Follow up sales
+            - Send quote as Email to your customer 
+            - save email history
+            - Export Quotes as PDF
+            - API for see each salesman customers (use JWT Authentication)
+            - individualize each salesman profile  and sale history (not added yet)
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Blogshop 
+        link: https://github.com/HamzehMahmoudi/Blogshop
+        link_text: Blogshop
+        additional_links:
+          - title:  https://github.com/HamzehMahmoudi/Blogshop
+            icon: fab fa-github
+            url: https://github.com/HamzehMahmoudi/Blogshop
+        quote: >
+          i did it when i was learning django
+        description: | # this will include new lines to allow paragraphs
+            its a online shop with its own blog
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Contact List 
+        link: https://github.com/HamzehMahmoudi/contactlist
+        link_text: Contact Lis
+        additional_links:
+          - title:  https://github.com/HamzehMahmoudi/contactlist
+            icon: fab fa-github
+            url: https://github.com/HamzehMahmoudi/contactlist
+        quote: >
+          it's ain't much but it's honest work
+        description: | # this will include new lines to allow paragraphs
+            i wrote this to chalenge myself while i was learning django 
+           
 
   - title: Experience
     layout: list
